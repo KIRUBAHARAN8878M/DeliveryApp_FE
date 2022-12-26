@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav, Image, NavDropdown, Button, } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { LinkContainer } from "react-router-bootstrap";
-import img from "../logo.png";
+import img from "../images/logo.jpg";
 import { logoutUser } from "../actions/userAction";
 
 function TopBar() {
@@ -12,7 +12,7 @@ function TopBar() {
   const { currentUser } = userState;
   return (
     <>
-      <Navbar variant="dark" expand="lg" sticky="top" style={{ backgroundColor: "rgb(172, 0, 29)" }}>
+      <Navbar variant="dark" expand="lg" sticky="top" style={{ backgroundColor: "rgb(27, 0, 18)" }}>
         <Container>
           <Navbar.Brand>
             <Image src={img} alt="logo" style={{ height: "50px" }} />
