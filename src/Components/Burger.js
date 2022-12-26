@@ -51,8 +51,8 @@ function Burger({ burger }) {
           objectFit: "cover",
           borderRadius: "15px",
           boxShadow: "rgba(255, 0, 0, 0.8) 12px 8px 12px",
-          backgroundColor: "rgb(172, 0, 29)",
-          border: "1px solid rgb(172, 0, 29)",
+          backgroundColor: "rgb(27, 0, 18)",
+          border: "1px solid rgb(27, 0, 18)",
 
 
         }}
