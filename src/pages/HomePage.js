@@ -37,7 +37,7 @@ function HomePage() {
           </Row>
         )}
       </Container>
-      
+      <Support />
       <Footer />
     </>
   );
