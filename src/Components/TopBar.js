@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav, Image, NavDropdown, Button, } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { LinkContainer } from "react-router-bootstrap";
-import img from "../images/logo.jpg";
+import img from "../images/logo.png";
 import { logoutUser } from "../actions/userAction";
 
 function TopBar() {

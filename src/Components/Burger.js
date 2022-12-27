@@ -50,7 +50,7 @@ function Burger({ burger }) {
           marginTop: "30px",
           objectFit: "cover",
           borderRadius: "15px",
-          boxShadow: "rgba(206, 118, 159, 0.8) 12px 8px 12px",
+          boxShadow: "rgba(160, 159, 159, 0.8) 12px 8px 12px",
           backgroundColor: "rgb(27, 0, 18)",
           border: "1px solid rgb(27, 0, 18)",
 
