@@ -3,7 +3,7 @@ import "../CSS/support.css"
 
 function Support() {
     return (
-        <div className='container card bg-transparent'>
+        <>
             <div className="header">
                 <h1>Our Support</h1>
                 <div class="border"></div>
@@ -35,7 +35,7 @@ function Support() {
                     <img className='images' src="https://assets.codepen.io/2301174/icon-karma.svg" alt="Four"/>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
