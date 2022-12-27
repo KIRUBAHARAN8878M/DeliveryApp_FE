@@ -24,11 +24,11 @@ const AdminPage = ({history}) => {
               <Button onClick={() => navigate("/admin/userlist",history)}>
                 All Users
               </Button>
-              <Button onClick={() => navigate("/admin/pizzalist",history)}>
-                All Pizzas
+              <Button onClick={() => navigate("/admin/burgerlist",history)}>
+                All Burgers
               </Button>
-              <Button onClick={() => navigate("/admin/addnewpizza",history)}>
-                Add New Pizza
+              <Button onClick={() => navigate("/admin/addnewburger",history)}>
+                Add New Burger
               </Button>
               <Button onClick={() => navigate("/admin/orderlist",history)}>
                 All Orders
