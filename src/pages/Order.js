@@ -21,7 +21,7 @@ function Order() {
       {error && (<Error error="Something went wrong" />)}
       {
         orders && orders.map((order) => (
-          <Container className="container border p-4 bg-transparent">
+          <Container className="container  p-4 bg-transparent">
             <Row>
               <Col md={4}>
                 {order.orderItems.map((item) => (
