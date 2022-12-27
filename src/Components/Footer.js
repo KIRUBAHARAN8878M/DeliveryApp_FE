@@ -38,7 +38,7 @@ function Footer() {
                 </div>
             </footer>
             {/* <!-- main-footer end --> */}
-            <div className="footer-bottom" style={{backgroungColor : "rgb(27, 0, 18)"}}>
+            <div className="footer-bottom" style={{backgroundColor : "rgb(27, 0, 18)"}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12 column">
