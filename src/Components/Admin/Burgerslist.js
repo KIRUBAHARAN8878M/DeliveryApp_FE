@@ -24,7 +24,7 @@ function Burgerslist() {
       ) : (
         <div className="text-light">
           <Table striped bordered hover>
-            <thead>
+            <thead className="text-light">
               <tr>
                 <th>Burger Image</th>
                 <th>Burger Name</th>
@@ -33,7 +33,7 @@ function Burgerslist() {
                 <th>Action</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="text-light">
               {burgers &&
                 burgers.map((burger) => (
                   <tr>

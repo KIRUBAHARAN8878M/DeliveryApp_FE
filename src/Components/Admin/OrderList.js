@@ -17,7 +17,7 @@ function OrderList() {
     {loading && (<Loader/>)}
     {error && (<Error error="Admin Order request fail"/>)}
     <Table striped bordered hover>
-  <thead>
+  <thead className="text-light">
     <tr>
       <th>Order Id</th>
       <th>Email</th>
@@ -27,7 +27,7 @@ function OrderList() {
       <th>Status</th>
     </tr>
   </thead>
-    <tbody>
+    <tbody className="text-light">
     {orders && orders.map(order => (
       <tr key={order._id}>
         <td>{order._id}</td>

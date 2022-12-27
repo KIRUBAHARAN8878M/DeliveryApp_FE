@@ -21,7 +21,7 @@ function Userlist() {
         {loading && (<Loader/>)}
         {error && (<Error error = "Error while fetching users"/>)}
         <Table striped bordered hover>
-          <thead>
+          <thead className="text-light" >
             <tr>
               <th>User Id</th>
               <th>Name</th>
@@ -29,7 +29,7 @@ function Userlist() {
               <th>Delete</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-light">
           {
             users && users.map(user =>(
               <tr key={user._id}>
