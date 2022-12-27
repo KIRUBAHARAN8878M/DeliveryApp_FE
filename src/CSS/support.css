@@ -1,4 +1,5 @@
 .header {
+    padding-top: 20px;
     text-align: center;
     line-height: 0.8;
     margin-bottom: 50px;
@@ -285,19 +286,8 @@ ul {
     max-width: 220px;
 }
 
-.testimonials {
-    padding: 40px 0;
-    background: #161616;
-    color: #000000;
-    text-align: center;
-}
 
-.testimonial-inner {
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
-}
+
 
 .border {
     width: 160px;
@@ -319,19 +309,9 @@ ul {
     padding: 15px;
 }
 
-.testimonial {
-    background: #161616;
-    padding: 30px;
-    box-shadow: 0 3px 6px rgb(255, 255, 255), 0 3px 6px rgb(255, 253, 253);
-    color: #f6f6f6;
-    border-radius: 20px;
-}
 
-.testimonial img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
+
+
 
 .name {
     font-size: 20px;
