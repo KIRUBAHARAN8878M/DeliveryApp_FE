@@ -50,7 +50,7 @@ function Burger({ burger }) {
           marginTop: "30px",
           objectFit: "cover",
           borderRadius: "15px",
-          boxShadow: "rgba(255, 0, 0, 0.8) 12px 8px 12px",
+          boxShadow: "rgba(206, 118, 159, 0.8) 12px 8px 12px",
           backgroundColor: "rgb(27, 0, 18)",
           border: "1px solid rgb(27, 0, 18)",
 
@@ -86,7 +86,7 @@ function Burger({ burger }) {
                   onChange={(e) => setQuantity(e.target.value)}
                 >
                   {[...Array(10).keys()].map((v, i) => (
-                    <option value={i + 1}>{i + 1}</option>
+                    <option className="text-white bg-transparent" value={i + 1}>{i + 1}</option>
                   ))}
                 </select>
               </Col>

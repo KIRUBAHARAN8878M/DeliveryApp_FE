@@ -10,8 +10,8 @@ import '../CSS/login.css';
 
 function AdminLogin() {
 
-  const [email, setEmail] = useState("admin@gmail.com");
-  const [password, setPassword] = useState("admin@1234");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("Admin@1234");
   const dispatch = useDispatch();
 
   const adminState = useSelector(state => state.adminUserReducer)

@@ -17,8 +17,8 @@ function CartScreen() {
       <Container className="cartscreen mt-4">
         <Row>
           <Col md={6}>
-            <h1 className="text-center text-dark mb-5" style={{ color: 'black' }} >My Cart</h1>
-            <Row className="text-dark">
+            <h1 className="text-center text-light mb-5" style={{ color: 'black' }} >My Cart</h1>
+            <Row className="text-light">
               {cartItems.map((item) => (
                 <>
                   <Col md={7}>
