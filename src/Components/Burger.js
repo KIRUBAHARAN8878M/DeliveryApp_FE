@@ -86,7 +86,7 @@ function Burger({ burger }) {
                   onChange={(e) => setQuantity(e.target.value)}
                 >
                   {[...Array(10).keys()].map((v, i) => (
-                    <option className="text-white bg-transparent" value={i + 1}>{i + 1}</option>
+                    <option className="text-success " value={i + 1}>{i + 1}</option>
                   ))}
                 </select>
               </Col>

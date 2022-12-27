@@ -6,6 +6,8 @@ import ControlledCarousel from "../Components/ControlledCarousel";
 import { getAllBurgers } from "../actions/burgerAction";
 import Loader from "../Components/Loader";
 import Error from "../Components/Error";
+import Footer from "../Components/Footer";
+import Support from "../Components/Support";
 
 import '../CSS/Burger.css';
 
@@ -35,6 +37,8 @@ function HomePage() {
           </Row>
         )}
       </Container>
+      <Support />
+      <Footer />
     </>
   );
 }
