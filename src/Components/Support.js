@@ -5,7 +5,7 @@ function Support() {
     return (
         <>
             <div className="header">
-                <h1>Our Support</h1>
+                <h1 className='text-light'>Our Support</h1>
                 <div class="border"></div>
                 <p>Our Artificial Intelligence powered tools use to create products much durability and successfully</p>
             </div>

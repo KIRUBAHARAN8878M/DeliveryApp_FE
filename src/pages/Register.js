@@ -47,7 +47,7 @@ function Register() {
             xs={12} sm={12} md={6}
             className="d-flex align-items-center justify-content-center"
           >
-            <Form className="signupform" style={{color:"black"}}>
+            <Form className="signupform" style={{color:"white"}}>
               <h1>Create your account</h1>
               {loading && <Loader />}
 

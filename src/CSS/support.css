@@ -9,12 +9,12 @@
 .header p {
     margin: 0 auto;
     line-height: 2;
-    color: var(--grayishBlue);
+    color: rgb(255, 151, 194);
 }
 
 
 .box p {
-    color: var(--grayishBlue);
+    color: rgb(255, 151, 194);
 }
 
 .box {
@@ -22,7 +22,7 @@
     box-shadow: 0px 30px 40px -20px var(--grayishBlue);
     padding: 30px;
     margin: 20px;
-    border-color :antiquewhite;
+    background-color :rgb(121, 47, 78) !important;
 }
 
 .images {

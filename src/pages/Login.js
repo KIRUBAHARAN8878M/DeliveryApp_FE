@@ -37,12 +37,12 @@ function Login() {
             xs={12} sm={12} md={6}
             className="d-flex align-items-center justify-content-center">
             <Form className="form loginform">
-              <h1 className="text-center" style={{ color: "black" }}>Login</h1>
+              <h1 className="text-center" style={{ color: "white" }}>Login</h1>
               {loading && <Loader />}
               {success && <Success success="User logged in" />}
 
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label className="text-center" style={{ color: "black" }}>Email address</Form.Label>
+                <Form.Label className="text-center" style={{ color: "white" }}>Email address</Form.Label>
                 <Form.Control
                   type="email"
                   placeholder="Enter your email"
@@ -53,7 +53,7 @@ function Login() {
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label className="" style={{ color: "black" }}>Password</Form.Label>
+                <Form.Label className="" style={{ color: "white" }}>Password</Form.Label>
                 <Form.Control
                   type="password"
                   placeholder="Password"
@@ -71,14 +71,14 @@ function Login() {
               </span>
 
               <div className="py-4 text-center">
-                <p className="">
+                <p className="text-white">
                   Don't have an account? <Link to="/register"> Register</Link>
                 </p>
 
               </div>
-              <div className="text-center">
+              <div className="text-center text-white">
                 <p className="">
-                  <strong>Test Account</strong> : User@gmail.com <br />
+                  <strong>Test Account</strong> : kirubaharan8878m@gmail.com <br />
                   <strong>password</strong> : User@1234
                 </p>
 

@@ -10,7 +10,7 @@ import '../CSS/login.css';
 
 function AdminLogin() {
 
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("kirubam8878@gmail.com");
   const [password, setPassword] = useState("Admin@1234");
   const dispatch = useDispatch();
 
@@ -38,7 +38,7 @@ function AdminLogin() {
             xs={12} sm={12} md={6}
             className="d-flex align-items-center justify-content-center"
           >
-            <Form className="form adminlogin mt-5">
+            <Form className="form adminlogin text-white mt-5">
               <h1 className="text-center">Admin Login</h1>
               {loading && <Loader />}
               {success && <Success success="Admin Registered Successfully" />}
