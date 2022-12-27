@@ -16,7 +16,7 @@ function Userlist() {
   }, [dispatch]);
   return (
     <>
-      <div>
+      <div className="text-light">
         <h1 className="text-center">User List</h1>
         {loading && (<Loader/>)}
         {error && (<Error error = "Error while fetching users"/>)}

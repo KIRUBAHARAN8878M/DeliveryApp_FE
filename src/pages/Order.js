@@ -16,12 +16,12 @@ function Order() {
 
   return (
     <>
-      <h1>Orders</h1>
+      <h1 className='text-light'>Orders</h1>
       {loading && (<Loader />)}
       {error && (<Error error="Something went wrong" />)}
       {
         orders && orders.map((order) => (
-          <Container className="container  p-4 bg-transparent">
+          <Container className="container text-white p-4 bg-transparent">
             <Row>
               <Col md={4}>
                 {order.orderItems.map((item) => (

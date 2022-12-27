@@ -17,8 +17,8 @@ const AdminPage = ({history}) => {
   return (
     <>
       <Container>
-        <Row className="text-white">
-          <h1 className="text-center p-2 text-black mb-2">Admin Panel</h1>
+        <Row className="text-light">
+          <h1 className="text-center p-2 text-light mb-2">Admin Panel</h1>
           <Col md={2}>
             <ButtonGroup vertical style={{ minHeight: "400px" }}>
               <Button onClick={() => navigate("/admin/userlist",history)}>

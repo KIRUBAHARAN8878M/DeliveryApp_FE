@@ -13,7 +13,7 @@ function OrderList() {
     dispatch(getAllOrders())
   },[dispatch])
   return (
-    <div><h1 className="text-center">Order Lists</h1>
+    <div className='text-light'><h1 className="text-center text-light">Order Lists</h1>
     {loading && (<Loader/>)}
     {error && (<Error error="Admin Order request fail"/>)}
     <Table striped bordered hover>

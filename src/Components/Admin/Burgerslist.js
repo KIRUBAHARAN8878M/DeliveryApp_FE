@@ -22,7 +22,7 @@ function Burgerslist() {
       ) : error ? (
         <Error>Error while fetching burger datas{error}</Error>
       ) : (
-        <div>
+        <div className="text-light">
           <Table striped bordered hover>
             <thead>
               <tr>
