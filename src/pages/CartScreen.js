@@ -81,7 +81,7 @@ function CartScreen() {
           </Col>
           <Col md={2}>
           </Col>
-          <Col className="text-dark" md={3}>
+          <Col className="text-light" md={3}>
             <h1 className="text-center mb-5">Payment Info</h1>
             <h4>Total Amount</h4>
             <h4 className="mb-4"><FaRupeeSign />{subTotal}/-</h4>
